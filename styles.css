@@ -1,7 +1,13 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(Norse-Bold.otf);
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 1.1rem;
 }
 
 body {
@@ -20,18 +26,20 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
-
 }
 
 .image-text {
+    font-family: Norse-Bold, arial;
+    color: rgba(255, 255, 255, 0.9);
     width: 100%;
     position: absolute;
     top: 4rem;
-    font-size: 2rem;
+    font-size: 3rem;
+    overflow: hidden;
     text-align: center;
     font-weight: bold;
     background-color: rgba(0, 0, 0, 0.6); 
-    padding: 1rem;
+    padding: 2rem;
 }
 
 
@@ -40,9 +48,14 @@ body {
     align-content: center;
 }
 
-h2, button {
+.welcome, button {
     margin: 2rem;
-    padding: .5rem;
+    font-size: 2rem;
+}
+button {
+    margin: 2   rem;
+    font-size: 1rem;
+    padding: .25rem;
 }
 label{
     margin-bottom: .5rem;
