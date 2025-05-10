@@ -3,11 +3,35 @@ body {
     margin: 0;
     height: 100vh;
 }
+
 .image-container {
     flex: 1;
     background: url('halie-west-25xggax4bSA-unsplash.jpg');
     background-size: cover;
 }
-form {
+
+.content-container {
     flex: 3;
+    padding: 4rem;
+    align-content: center;
+}
+
+label{
+    margin-bottom: .5 rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
 }

@@ -8,28 +8,41 @@
 </head>
 <body>
     <div class="image-container"></div>
-    <h2>This is not a real site!</h2>
-    <form action="">
-        <div>
-            <label for="first-name">First name</label>
-            <input type="text" name="first-name" id="first-name">
-            <label for="last-name">Last name</label>
-            <input type="text" name="last-name" id="last-name">
-        </div>
-        <div>
-            <label for="email">*Email</label>
-            <input type="email" name="email" id="email" required>
-            <label for="phone">Phone number</label>
-            <input type="number" name="phone" id="phone">
-        </div>
-        <div>
-            <label for="pwd">*Password</label>
-            <input type="password" name="pwd" id="pwd" required>
-            <label for="confirm-pwd">*Confirm password</label>
-            <input type="password" name="confirm-pwd" id="confirm-pwd" required>
-        </div>
-        <button type="submit" aria-label="Submit">Create Account</button>
-    </form>
-    
+    <div class="content-container">
+        <h2>This is not a real site!</h2>
+        <form action="">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="first-name">First name</label>
+                    <input type="text" name="first-name" id="first-name">
+                </div>
+                <div class="form-group">
+                    <label for="last-name">Last name</label>
+                    <input type="text" name="last-name" id="last-name">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="email">*Email</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone number</label>
+                    <input type="number" name="phone" id="phone">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="pwd">*Password</label>
+                    <input type="password" name="pwd" id="pwd" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirm-pwd">*Confirm password</label>
+                    <input type="password" name="confirm-pwd" id="confirm-pwd" required>
+                </div>
+            </div>
+            <button type="submit" aria-label="Submit">Create Account</button>
+        </form>
+    </div>
 </body>
 </html>
